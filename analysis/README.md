@@ -22,7 +22,7 @@ There are some slight differences to the analysis reported in the paper. To reco
 
 As discussed in the paper, we generate test predictions at two retention rates: 20% (i.e. deletion rate 0.8, better fit to eye-tracking) and 60% (i.e. deletion rate 0.4, better fit to Maze).
 
-Run `RC_test_analysis.R` to analyze LCS model predictions for test items and generate plots comparing LCS on critical regions in object and subject relative clauses.
+Run `RC_test_analysis.R` to analyze LCS model predictions for test items and compare LCS on critical regions in object and subject relative clauses. It will generate the equivalent of Figures 4 and 5 in the paper.
 
 Note that the generated plots use pre-computed averages for the RT data. This is for expedience. To reproduce these computations from the raw RT data, see `v21_test_means.R` for the Maze data from Vani et al., and [the original analysis code](https://osf.io/4rq3m/) for eye-tracking data from Roland et al.
 
