@@ -1,0 +1,1 @@
+Sentence	SentenceID	Region	Word	Surprisal	SurprisalReweighted	Repetition
